@@ -6,5 +6,5 @@
 
 <CentralView>
 	<Ocpp />
-</CentralView>>
+</CentralView>
 		

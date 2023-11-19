@@ -79,7 +79,7 @@
 		<div class="column is-three-quarters is-full-mobile">
 			
 			<div class="mb-2 enable is-flex is-align-items-center is-justify-content-center">
-				<Borders classes={$config_store.ohm_enabled?"has-background-primary-light":"has-background-light"}>
+				<Borders classes={$config_store.ocpp_enabled?"has-background-primary-light":"has-background-light"}>
 					<Switch 
 						name="ocppswitch" 
 						label={$_("enable")} 
