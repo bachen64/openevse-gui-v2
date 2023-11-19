@@ -9,6 +9,6 @@ export const EvseClients = {
 	ocpp:	{ id: 65545, priority: 1050},
 	rfid:	{ id: 65546, priority: 1030},
 	mqtt: 	{ id: 65547, priority: 500},
-	shaper: { id: 65548, priority: 5000}
-	
+	shaper: { id: 65548, priority: 5000},
+	aichat: { id: 65549, priority: 1040}
 }

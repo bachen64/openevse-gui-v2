@@ -210,6 +210,7 @@
             "emon": "Energy Monitoring",
             "ohm": "OhmConnect",
             "dev": "Developer",
+            "aichat": "AiChat",
             "about": "About"
         },
         "network": {
@@ -508,6 +509,21 @@
             "missing-ocpp_chargeBoxId": "missing Charge Box ID",
             "missing-ocpp_authkey": "missing Auth Key",
             "missing-ocpp_idtag": "missing Id Tag"
+        },
+        "aichat": {
+            "desc": "AiChat is an EVSE Load Management system. The EVSE in the group obtains the available power information through OCPP message, and uses the available power in the group to charge the electric vehicle.",
+            "group": "AiChat Group",
+            "group-desc": "Please join the AiChat EVSE Load Management group",
+            "maxpower": "Max Charging Power in the group (in W)",
+            "maxpower-desc": "The Max Charging Power that will be set when you become the group commander",
+            "server": "Central System URL",
+            "server-desc": "The Central System URL that will be connected when you become the group commander, blank for AiChat Private",
+            "connected": "Connected",
+            "role": "Role",
+            "commander": "Commander",
+            "crew": "Crew",
+            "missing-aichat_group": "missing AiChat Group",
+            "missing-aichat_max_pwr": "missing Max Charging Power"
         }
     }
 }

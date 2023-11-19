@@ -19,6 +19,7 @@ import EmonCMS          from '../routes/EmonCMS.svelte'
 import OhmConnect       from '../routes/OhmConnect.svelte'
 import Vehicle          from '../routes/Vehicle.svelte'
 import Dev              from '../routes/Dev.svelte'
+import AiChat           from '../routes/AiChat.svelte'
 import About            from '../routes/About.svelte'
 import Wizard           from '../routes/Wizard.svelte'
 
@@ -44,6 +45,7 @@ export const routes = {
     '/configuration/emoncms': EmonCMS,
     '/configuration/ohmconnect': OhmConnect,
     '/configuration/dev': Dev,
+    '/configuration/aichat': AiChat,
     '/configuration/about': About,
     '/wizard/:step?':Wizard,
     // Catch-all

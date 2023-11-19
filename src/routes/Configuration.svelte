@@ -25,6 +25,7 @@
 				<ConfigMenuButton url="/configuration/emoncms" icon="fa6-solid:chart-bar" name={$_("config.titles.emon")} />
 				<ConfigMenuButton url="/configuration/ohmconnect" icon="mdi:energy-circle" name={$_("config.titles.ohm")} />
 				<ConfigMenuButton url="/configuration/dev" icon="mdi:console" name={$_("config.titles.dev")} />
+				<ConfigMenuButton url="/configuration/aichat" icon="fa6-solid:robot" name={$_("config.titles.aichat")} />
 				<ConfigMenuButton url="/configuration/about" icon="mdi:about-circle-outline" name={$_("config.titles.about")} />
 			</div>
 	</Box>
