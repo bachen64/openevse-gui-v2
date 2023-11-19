@@ -59,6 +59,7 @@
 					/>
 					{#key $status_store.aichat_connected}
 					<div class:is-hidden={!$config_store.aichat_enabled} class="has-text-weight-bold {$status_store.aichat_connected?"has-text-primary":"has-text-danger"}">
+						{$_("config.aichat.role")}: {$status_store.aichat_role?$_("config.aichat.commander"):$_("config.aichat.crew")} |
 						{$_("config.aichat.connected")}: {$status_store.aichat_connected?$_("yes"):$_("no")}
 					</div>
 					{/key}
