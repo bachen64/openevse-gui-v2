@@ -1,6 +1,6 @@
 # OpenEVSE-UI
 
-New User Interface for OpenEVSE Wifi module
+User Interface for OpenEVSE Wifi module v5.x series (Retired - Gui-nightshift for v6.x)
 
 ![image](https://user-images.githubusercontent.com/488789/235537900-f9ee2c65-d46f-4b92-b244-723a052c8bce.png)
 
